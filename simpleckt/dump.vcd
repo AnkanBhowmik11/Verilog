@@ -1,0 +1,70 @@
+$date
+	Sat Apr 25 01:00:45 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simpleckt_tb $end
+$var wire 1 ! y $end
+$var wire 1 " x $end
+$var reg 1 # a $end
+$var reg 1 $ b $end
+$var reg 1 % c $end
+$scope module dut $end
+$var wire 1 # a $end
+$var wire 1 $ b $end
+$var wire 1 % c $end
+$var wire 1 & e $end
+$var wire 1 " x $end
+$var wire 1 ! y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0&
+0%
+0$
+0#
+1"
+1!
+$end
+#10000
+0"
+0!
+1%
+#20000
+1"
+1!
+0%
+1$
+#30000
+0"
+0!
+1%
+#40000
+1"
+1!
+0%
+0$
+1#
+#50000
+0"
+0!
+1%
+#60000
+1"
+1!
+1&
+0%
+1$
+#70000
+0!
+1%
+#80000

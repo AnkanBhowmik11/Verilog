@@ -1,0 +1,102 @@
+$date
+	Sun Apr 26 02:01:05 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module clk_gen_tb $end
+$var integer 32 ! cycle_count [31:0] $end
+$var real 1 " fall_time $end
+$var real 1 # high_duration $end
+$var real 1 $ low_duration $end
+$var real 1 % period $end
+$var real 1 & rise_time $end
+$scope module uut $end
+$var parameter 32 ' CLK_PERIOD $end
+$var parameter 32 ( DUTY_CYCLE $end
+$var parameter 64 ) TCLK_HI $end
+$var parameter 65 * TCLK_LO $end
+$var reg 1 + clk $end
+$upscope $end
+$scope module uut2 $end
+$var parameter 32 , CLK_PERIOD $end
+$var parameter 32 - DUTY_CYCLE $end
+$var parameter 64 . TCLK_HI $end
+$var parameter 65 / TCLK_LO $end
+$var reg 1 0 clk $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100110 /
+b1100 .
+b11001 -
+b110010 ,
+b100 *
+b110 )
+b111100 (
+b1010 '
+$end
+#0
+$dumpvars
+00
+0+
+r0 &
+r0 %
+r0 $
+r0 #
+r0 "
+b0 !
+$end
+#4
+r4 &
+1+
+#10
+r6 #
+r10 "
+0+
+#14
+b1 !
+r14 &
+r4 $
+r10 %
+1+
+#20
+r20 "
+0+
+#24
+b10 !
+r24 &
+1+
+#30
+r30 "
+0+
+#34
+b11 !
+r34 &
+1+
+#38
+10
+#40
+r40 "
+0+
+#44
+b100 !
+r44 &
+1+
+#50
+r50 "
+0+
+00
+#54
+b101 !
+r54 &
+1+
+#60
+0+
+#64
+1+
